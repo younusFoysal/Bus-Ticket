@@ -1,22 +1,22 @@
 main mark
 
-nav bar > name, bus button, 
-banner > buy now -> ph paribahan section
+nav bar > name, bus button, ##
+banner > buy now -> ph paribahan section ##
 
+diseabled next
+seat 1 + phone enables "next" btn ??---------------
 
-seat + mail needed to "next"
+apply btn desabled ##
+appy code > enable if buys 4 tckts ##
 
-apply btn desabled
-code > enable if buys 4 tckts
-
-1 seat buys 1 time. 
- only any 4 can select. show alert > you cant but more than 4 seat 
+1 seat buys 1 time. ##
+ only any 4 can select. show alert > you cant but more than 4 seat ##
  
- 1 code can be applied. cant use 2 code > hide apply after applied code
- invalid code applied? show alert
+ 1 code can be applied. cant use 2 code > hide apply after applied code ##
+ invalid code applied? show alert ##
  
- Show Discount Price: under Total Price
- update grand total
+ Show Discount Price: under Total Price ##
+ update grand total ##
  
  
  
