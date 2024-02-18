@@ -155,16 +155,21 @@ ticketSection.addEventListener("keyup", function (){
     let HasOneSeat = seatCount > 1;
     let HasPhone = phoneNum.length > 0;
     let HasName = passengerName.length > 0;
-    //console.log("remov disable")
-    //console.log(HasOneSeat)
-    //console.log(HasPhone)
-    //console.log(HasName);
+    console.log("remov disable")
+    console.log(HasOneSeat)
+    console.log(HasPhone)
+    console.log(HasName);
 
     if ( HasName === true && HasPhone === true && HasOneSeat === true){
         const nxt = document.getElementById("next").removeAttribute("disabled");
         //console.log(nxt)
         //console.log("remov disable ok")
     }
+
+    if (HasName === false || HasPhone === false || HasOneSeat === false) {
+        document.getElementById("next").setAttribute("disabled","")
+    }
+
 })
 
 
