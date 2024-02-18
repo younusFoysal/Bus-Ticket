@@ -8,3 +8,45 @@
     max-width: 81.52%;
     margin: 0 auto;
 }
+
+.border_left{
+    border-left: 2px solid dashed;
+}
+
+.make_it_dotted{
+    border: 1px dashed white;
+    height: 150px;
+}
+
+.make_it_dotted1{
+    border: 1px dashed rgb(0, 255, 21);
+    height: 300px;
+}
+
+hr{
+    border: 1px dashed rgba(189, 189, 189, 0.966);
+}
+.longHr{
+    height: 85vh;
+    border: 1px dashed rgb(0, 255, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, td, th, tr{
+    padding-inline: 30px;
+    padding-block: 10px;
+    text-align: left;
+}
+
+.grandTable th{
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px){
+    table, td, th, tr{
+        padding-inline: 4px;
+    }
+}
