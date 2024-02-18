@@ -30,16 +30,21 @@
 </head>
 <body>
 <header class="container py-8">
+
+    <!-- Nav Start -->
     <div class="navbar bg-base-100">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16"/>
                     </svg>
                 </div>
 
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-light-black opacity-70 text-lg">
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-light-black opacity-70 text-lg">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Destination</a></li>
@@ -52,22 +57,87 @@
 
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-light-black opacity-70 text-lg font-raleway">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Destination</a></li>
-              <li><a>Search</a></li>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
             </ul>
-          </div>
+        </div>
 
-          <div class="navbar-end">
+        <div class="navbar-end">
             <a class="btn bg-[#1DD100]/10 rounded-lg border-2 border-[#1DD100]/40 px-8 lg:flex items-center justify-center hidden">
-              <p class="text-light-green font-raleway">Bus</p>
-              <img src="images/bus-icon.png" alt="">
+                <p class="text-light-green font-raleway">Bus</p>
+                <img src="images/bus-icon.png" alt="">
             </a>
-          </div>
+        </div>
 
     </div>
 </header>
+
+<main class="container font-raleway">
+    <!-- Banner Section Start -->
+    <section>
+        <div class="banner-top rounded-3xl overflow-hidden">
+            <div class="hero min-h-full rounded-3xl py-16" style="background-image: url(images/banner.png);">
+                <div class=" bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-3xl mx-auto">
+                        <h1 class="mb-5 text-4xl lg:text-6xl font-extrabold text-white lg:leading-normal font-raleway">
+                            End-to-End Travel with
+                            <br>
+                            <span class="text-light-green">
+                        P Paribahan
+                    </span>
+                        </h1>
+                        <p class="mb-5 font-inter text-white">Yes, you can run unit tests and view the results directly
+                            within the app. The
+                            <br>
+                            integrated testing features allow for a streamlined .</p>
+                        <button class="bg-[#1DD100] outline-0 text-light-black font-bold rounded-xl text-xl px-8 py-4 lg:mb-12 font-raleway">
+                            Buy Tickets
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="banner-bottom lg:-mt-20">
+            <div class="items lg:flex lg:justify-around mb-4 block">
+                <div class="banner-item-1 rounded-xl border-b-4 px-8 py-10 max-w-xs border-b-[#1DD100] bg-white">
+                    <div class="flex gap-4 ">
+                        <img src="images/people.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <p class="font-inter text-4xl text-light-black font-bold">500K+</p>
+                            <p class="font-inter text-light-black opacity-60">Registered users</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-item-2 rounded-xl border-b-4 px-8 py-10 max-w-xs border-b-[#1DD100] bg-white">
+                    <div class="flex gap-4 ">
+                        <img src="images/ticket-cupon.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <p class="font-inter text-4xl text-light-black font-bold">1.7 lacks</p>
+                            <p class="font-inter text-light-black opacity-60">Tickets sold</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-item-3 rounded-xl border-b-4 px-8 py-10 max-w-xs border-b-[#1DD100] bg-white">
+                    <div class="flex gap-4 ">
+                        <img src="images/stoppage.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <p class="font-inter text-4xl text-light-black font-bold">80K+</p>
+                            <p class="font-inter text-light-black opacity-60">Rental partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
 
 
 </body>
