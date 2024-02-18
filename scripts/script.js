@@ -122,7 +122,7 @@ btn.addEventListener("click", function (){
             tr.appendChild(td2)
             tr.appendChild(td3)
             totaldiscount.appendChild(tr)
-            console.log("pppppkkkkk")
+            //console.log("pppppkkkkk")
 
             //grand total
             const grandTotal = totalCost - discountPrice;
@@ -148,22 +148,22 @@ btn.addEventListener("click", function (){
 const ticketSection = document.getElementById("ticketSection")
 ticketSection.addEventListener("keyup", function (){
     let phoneNum = document.getElementById("phoneNum").value
-    console.log(phoneNum)
+    //console.log(phoneNum)
     let passengerName = document.getElementById("passengerName").value
-    console.log(passengerName)
+    //console.log(passengerName)
 
     let HasOneSeat = seatCount > 1;
     let HasPhone = phoneNum.length > 0;
     let HasName = passengerName.length > 0;
-    console.log("remov disable")
-    console.log(HasOneSeat)
-    console.log(HasPhone)
-    console.log(HasName);
+    //console.log("remov disable")
+    //console.log(HasOneSeat)
+    //console.log(HasPhone)
+    //console.log(HasName);
 
     if ( HasName === true && HasPhone === true && HasOneSeat === true){
         const nxt = document.getElementById("next").removeAttribute("disabled");
-        console.log(nxt)
-        console.log("remov disable ok")
+        //console.log(nxt)
+        //console.log("remov disable ok")
     }
 })
 
