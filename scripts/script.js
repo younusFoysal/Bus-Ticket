@@ -147,10 +147,12 @@ btn.addEventListener("click", function (){
 
 const ticketSection = document.getElementById("ticketSection")
 ticketSection.addEventListener("keyup", function (){
-    let phoneNum = document.getElementById("phoneNum")
-    let passengerName = document.getElementById("passengerName")
+    let phoneNum = document.getElementById("phoneNum").value
+    console.log(phoneNum)
+    let passengerName = document.getElementById("passengerName").value
+    console.log(passengerName)
 
-    let HasOneSeat = seatList.length >= 2;
+    let HasOneSeat = seatCount > 1;
     let HasPhone = phoneNum.length > 0;
     let HasName = passengerName.length > 0;
     console.log("remov disable")
@@ -159,7 +161,7 @@ ticketSection.addEventListener("keyup", function (){
     console.log(HasName);
 
     if ( HasName === true && HasPhone === true && HasOneSeat === true){
-        const nxt = document.getElementById("next");
+        const nxt = document.getElementById("next").removeAttribute("disabled");
         console.log(nxt)
         console.log("remov disable ok")
     }
